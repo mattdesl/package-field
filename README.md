@@ -6,17 +6,30 @@ Command-line to get a field from current dir's package.json. Defaults to `name` 
 
 e.g.
 
+For the following package.json in a folder called `foobar`:
+
 ```js
-cd mymodule
+{
+    "description": "this is foobar",
+    "name": "foobar",
+    ... etc
+}
+```
+
+```js
+cd foobar
 package-field description
 
-## echos the description in package.json
-
+## prints 'this is foobar' to stdout
 ```
 
 ## Usage
 
 [![NPM](https://nodei.co/npm/package-field.png)](https://nodei.co/npm/package-field/)
+
+```package-field description -s```
+
+You can use `-s` to silent errors and return an empty string.
 
 ## License
 
