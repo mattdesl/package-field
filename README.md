@@ -27,6 +27,10 @@ package-field description
 
 [![NPM](https://nodei.co/npm/package-field.png)](https://nodei.co/npm/package-field/)
 
+```package-field [field] [options]```
+
+e.g. 
+
 ```package-field description -s```
 
 You can use `-s` to silent errors and return an empty string.
