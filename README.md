@@ -8,7 +8,7 @@ e.g.
 
 For the following package.json in a folder called `foobar`:
 
-```js
+```json
 {
     "description": "this is foobar",
     "name": "foobar",
@@ -16,7 +16,7 @@ For the following package.json in a folder called `foobar`:
 }
 ```
 
-```js
+```sh
 cd foobar
 package-field description
 
