@@ -3,6 +3,7 @@
 var fs = require('fs')
 var path = require('path')
 var argv = require('yargs')
+        .boolean('s')
         .alias('s', 'silent')
         .describe('s', 'print empty string instead of erroring out')
         .argv
