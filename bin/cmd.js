@@ -21,7 +21,7 @@ fs.readFile(pkg, 'utf8', function(err, data) {
     } else {
         try {
             var p = JSON.parse(data)
-            process.stdout.write(p[field]||'')
+            process.stdout.write(''+p[field]||'')
         } catch (e) {
             if (argv.s)
                 process.stdout.write('')
